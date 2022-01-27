@@ -32,7 +32,7 @@ class Bridge {
   }
 
   break() {
-    Matter.Composite.clear(this.rope,true);
+   // Matter.Composite.clear(this.rope,true);
     this.body = null;
   }
 
